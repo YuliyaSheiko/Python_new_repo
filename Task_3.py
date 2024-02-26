@@ -1,7 +1,9 @@
 import re
 
 # Original text provided for the homework
-text = """homEwork: tHis iz your homeWork, copy these Text to variable. You NEED TO normalize it fROM letter CASEs point oF View. also, create one MORE senTENCE witH LAST WoRDS of each existING SENtence and add it to the END OF this Paragraph. it iZ misspeLLing here. fix“iZ” with correct “is”, but ONLY when it Iz a mistAKE. last iz TO calculate nuMber OF Whitespace characteRS in this Tex. caREFULL, not only Spaces, but ALL whitespaces. I got 87."""
+text = """homEwork: tHis iz your homeWork, copy these Text to variable. You NEED TO normalize it fROM letter CASEs 
+point oF View. also, create one MORE senTENCE witH LAST WoRDS of each existING SENtence and add it to the END OF 
+this Paragraph. it iZ misspeLLing here. fix“iZ” with correct “is”, but ONLY when it Iz a mistAKE. last iz TO calculate nuMber OF Whitespace characteRS in this Tex. caREFULL, not only Spaces, but ALL whitespaces. I got 87."""
 
 def normalize_text(text):
 # Convert all letters to lowercase
@@ -41,7 +43,7 @@ def generate_new_sentence(original_text):
     new_sentence = new_sentence.capitalize()
 
 # Append the new sentence to the end of the original text
-    updated_text = original_text + '. ' + new_sentence + '.'
+    updated_text = original_text + ' ' + new_sentence
 
     return updated_text
 
