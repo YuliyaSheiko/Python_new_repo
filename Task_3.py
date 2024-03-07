@@ -1,9 +1,10 @@
 import re
 
 # Original text provided for the homework
-text = """homEwork: tHis iz your homeWork, copy these Text to variable. You NEED TO normalize it fROM letter CASEs 
-point oF View. also, create one MORE senTENCE witH LAST WoRDS of each existING SENtence and add it to the END OF 
-this Paragraph. it iZ misspeLLing here. fix“iZ” with correct “is”, but ONLY when it Iz a mistAKE. last iz TO calculate nuMber OF Whitespace characteRS in this Tex. caREFULL, not only Spaces, but ALL whitespaces. I got 87."""
+text = """homEwork: tHis iz your homeWork, copy these Text to variable. You NEED TO normalize it fROM letter CASEs
+point oF View. also, create one MORE senTENCE witH LAST WoRDS of each existING SENtence and add it to the END OF
+this Paragraph. it iZ misspeLLing here. fix“iZ” with correct “is”, but ONLY when it Iz a mistAKE. last iz TO
+# calculate nuMber OF Whitespace characteRS in this Tex. caREFULL, not only Spaces, but ALL whitespaces. I got 87."""
 
 def normalize_text(text):
 # Convert all letters to lowercase
@@ -25,8 +26,8 @@ def normalize_text(text):
     return normalized_text
 
 
-normalized_text = normalize_text(text)
-print(normalized_text)
+# normalized_text = normalize_text(text)
+# print(normalized_text)
 
 
 def generate_new_sentence(original_text):
@@ -48,8 +49,8 @@ def generate_new_sentence(original_text):
     return updated_text
 
 
-text_with_new_sentnce = generate_new_sentence(normalized_text)
-print(text_with_new_sentnce)
+# text_with_new_sentnce = generate_new_sentence(normalized_text)
+# print(text_with_new_sentnce)
 
 
 def correct_misspelled(text):
@@ -60,8 +61,8 @@ def correct_misspelled(text):
     return corrected_text
 
 
-corrected_text = correct_misspelled(text_with_new_sentnce)
-print(corrected_text)
+# corrected_text = correct_misspelled(text_with_new_sentnce)
+# print(corrected_text)
 
 
 def count_spaces(text):
@@ -71,5 +72,5 @@ def count_spaces(text):
     return total_whitespace
 
 
-total_whitespace = count_spaces(corrected_text)
-print("Total whitespace characters:", total_whitespace)
+# total_whitespace = count_spaces(corrected_text)
+# print("Total whitespace characters:", total_whitespace)
