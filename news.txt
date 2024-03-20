@@ -15,3 +15,19 @@ Date: 2024-03-03
 Day of the Week: Sunday
 ------------------------------------
 
+Type: News
+Text: Breaking news: new discovery in space!
+Location: Space Station Alpha
+Publish Date: 2024-03-20 12:06:58
+------------------------------------
+Type: Private Ad
+Text: Special offer: buy one, get one free!
+Expiration Date: 2024-04-01
+Days Left: 12
+------------------------------------
+Type: Quote of the Day
+Text: The only limit to our realization of tomorrow will be our doubts of today.
+Author: Franklin D. Roosevelt
+Date: 2024-03-20
+Day of the Week: Monday22
+------------------------------------
