@@ -1,0 +1,18 @@
+<publications>
+    <publication>
+        <type>n</type>
+        <text>Breaking news: New discovery in Space!</text>
+        <location>Space Station Alpha</location>
+    </publication>
+    <publication>
+        <type>a</type>
+        <text>Special offer: Buy one, gEt one free!</text>
+        <expiration_date>2024-04-01</expiration_date>
+    </publication>
+    <publication>
+        <type>q</type>
+        <text>The only limit to our realization of tomorrow Will be our doubts of today.</text>
+        <author>Franklin D. Roosevelt</author>
+        <day_of_week>Monday</day_of_week>
+    </publication>
+</publications>
