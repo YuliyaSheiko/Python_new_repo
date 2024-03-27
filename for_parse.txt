@@ -7,7 +7,7 @@
     {
         "type": "a",
         "text": "Special offer: Buy one, gEt one free!",
-        "expiration_date": "2024-04-01"
+        "expiration_date": "2024-04-10"
     },
     {
         "type": "q",
