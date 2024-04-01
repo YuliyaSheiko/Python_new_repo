@@ -1,0 +1,7 @@
+New York City, USA: Latitude 40.7128, Longitude -74.0060
+London, UK: Latitude 51.5074, Longitude -0.1278
+Tokyo, Japan: Latitude 35.6895, Longitude 139.6917
+Sydney, Australia: Latitude -33.8688, Longitude 151.2093
+Paris, France: Latitude 48.8566, Longitude 2.3522
+Minsk, Belarus: Latitude 53.9045, Longitude 27.5615
+Tbilisi, Georgia: Latitude 41.7151, Longitude 44.8271
